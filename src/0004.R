@@ -28,5 +28,3 @@ isPalindrome <- function(foo) {
 	return(TRUE)
 }
 
-problem4()
-
