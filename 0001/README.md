@@ -12,7 +12,7 @@ multiples of 3 or 5 below 1000.
 > numbers. To set up a vector named <code>x</code>, say, consisting of five
 > numbers, namely 10.4, 5.6, 3.1, 6.4 and 21.7, use the R command
 > 
->     x &lt;- c(10.4, 5.6, 3.1, 6.4, 21.7)
+>     x <- c(10.4, 5.6, 3.1, 6.4, 21.7)
 > 
 > This is an *assignment* statement using the *function* <code>c()</code>
 > which in this context can take an arbitrary number of vecotr *arguments* and
@@ -49,7 +49,7 @@ multiples of 3 or 5 below 1000.
 > 
 > The further assignment
 > 
->     y &lt;- c(x, 0, x)
+>     y <- c(x, 0, x)
 > 
 > would create a vector <code>y</code> with 11 entries consisting of two copies
 > of <code>x</code> with a zero in the middle place.
