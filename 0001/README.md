@@ -12,7 +12,7 @@ multiples of 3 or 5 below 1000.
 > numbers. To set up a vector named <code>x</code>, say, consisting of five
 > numbers, namely 10.4, 5.6, 3.1, 6.4 and 21.7, use the R command
 > 
->     x <- c(10.4, 5.6, 3.1, 6.4, 21.7)
+>     x &lt;- c(10.4, 5.6, 3.1, 6.4, 21.7)
 > 
 > This is an *assignment* statement using the *function* <code>c()</code>
 > which in this context can take an arbitrary number of vecotr *arguments* and
@@ -21,17 +21,17 @@ multiples of 3 or 5 below 1000.
 > A number occurring by itself in an expression is taken as a vector of length
 > one.
 > 
-> Notice that the assignment operator ('<code><-</code>'), which consists of the
-> two characters '<code><</code>' ("less than") and '<code>-</code>' ("minus")
-> occurring strictly side-by-side and it 'points' to the object receiving the
-> value of the expression. In most contexts the '<code>=</code>' operator can be
-> used as an alternative. Assignment can also be made using the function
-> <code>assign()</code>. An equivalent way of making the same assignment as
-> above is with:
+> Notice that the assignment operator ('<code>&lt;-</code>'), which consists of
+> the two characters '<code><</code>' ("less than") and '<code>-</code>'
+> ("minus") occurring strictly side-by-side and it 'points' to the object
+> receiving the value of the expression. In most contexts the '<code>=</code>'
+> operator can be used as an alternative. Assignment can also be made using the
+> function <code>assign()</code>. An equivalent way of making the same
+> assignment as above is with:
 > 
 >     assign("x", c(10.4, 5.6, 3.1, 6.4, 21.7))
 > 
-> The usual operator, <code><-</code>, can be thought of as a syntactic
+> The usual operator, <code>&lt;-</code>, can be thought of as a syntactic
 > short-cut to this.
 > 
 > Assignments can also be made in the other direction, using the obvious change
@@ -49,7 +49,7 @@ multiples of 3 or 5 below 1000.
 > 
 > The further assignment
 > 
->     y <- c(x, 0, x)
+>     y &lt;- c(x, 0, x)
 > 
 > would create a vector <code>y</code> with 11 entries consisting of two copies
 > of <code>x</code> with a zero in the middle place.
@@ -60,7 +60,7 @@ multiples of 3 or 5 below 1000.
 > numbers. For example <code>1:30</code> is the vector <code>c(1, 2, ..., 29,
 > 30)</code>. The colon operator has high priority within an expression, so, for
 > example <code>2*1:15</code> is the vector <code>c(2, 4, ..., 28, 30). Put
-> <code>n <- 10</code> and compare the sequences <code>1:n-1</code> and
+> <code>n &lt;- 10</code> and compare the sequences <code>1:n-1</code> and
 > <code>1:(n-1)</code>.
 > 
 > [http://cran.r-project.org/doc/manuals/R-intro.html](http://cran.r-project.org/doc/manuals/R-intro.html)
