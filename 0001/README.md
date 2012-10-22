@@ -59,7 +59,7 @@ multiples of 3 or 5 below 1000.
 > R has a number of facilities for generating commonly used sequences of
 > numbers. For example <code>1:30</code> is the vector <code>c(1, 2, ..., 29,
 > 30)</code>. The colon operator has high priority within an expression, so, for
-> example <code>2*1:15</code> is the vector <code>c(2, 4, ..., 28, 30)<code>.
+> example <code>2*1:15</code> is the vector <code>c(2, 4, ..., 28, 30)</code>.
 > Put <code>n <- 10</code> and compare the sequences <code>1:n-1</code> and
 > <code>1:(n-1)</code>.
 > 
