@@ -1,8 +1,9 @@
 library('RUnit')
 
-test.wrapper <- function(correctValue, actualValue) {
+test.wrapper <- function(correctValue, problemNumber) {
 	startTime <- as.numeric(Sys.time())
 	# check that we have solved the problem correctly
+	actualValue <- do.call(paste('problem', problemNumber, sep = ''), list())
 	checkEquals(correctValue, actualValue)
 	endTime <- as.numeric(Sys.time())
 	# check that we have taken less than 60 seconds to solve the problem
