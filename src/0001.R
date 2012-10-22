@@ -6,5 +6,3 @@ problem1 <- function() {
 	return(Reduce("+", mults35))
 }
 
-problem1()
-
