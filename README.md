@@ -3,7 +3,11 @@ Project Euler in R
 
 Dependencies
 ------------
+
+R packages (installed by calling <code>install.packages('package-name')</code>)
 * RUnit
+* gmp
+* sfsmisc
 
 Running the tests
 -----------------
