@@ -1,4 +1,4 @@
-library('RUnit')
+suppressPackageStartupMessages(library('RUnit'))
 
 test.wrapper <- function(correctValue, problemNumber) {
 	startTime <- as.numeric(Sys.time())
@@ -13,6 +13,5 @@ test.wrapper <- function(correctValue, problemNumber) {
 test.suite <- defineTestSuite("main",
 							  dirs = file.path("tests"),
 							  testFileRegexp = '^[0-9]{1,}\\.R$')
-isValidTestSuite(test.suite)
 runTestSuite(test.suite);
 
