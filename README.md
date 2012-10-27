@@ -32,8 +32,8 @@ the problem).
 **tests/XXXX.R**
 
 <code>tests/XXXX.R</code> is an R source file which must contain a function
-called <code>tests.problemX</code> (test1, test99, etc.) that tests the result 
-of the <code>problemX</code> function for correctness.
+called <code>test.problemX</code> (test1, test99, etc.) that tests the result of
+the <code>problemX</code> function for correctness.
 
 To have the test run as part of the RUnit test suite, this test must be added to
 the test suite in <code>test.R</code> in the root directory.
